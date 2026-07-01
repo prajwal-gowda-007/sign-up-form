@@ -66,7 +66,9 @@ button
     color: white;
     font-size: medium;
     padding: 10px 20px;
-    border-radius: 18px;
+    border-radius: 8px;
+    width: 250px;
+    height: 2.5rem;
 }
 
 .form-flex
@@ -78,11 +80,33 @@ button
 .form-grid
 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;    
+    grid-template-columns: repeat(2 ,minmax(200px , 300px));
+    gap: 1.5rem 3rem;
+    margin-bottom: 2rem;
 }
 
 .form-para
 {
     font-weight: 600;
+}
+
+input
+{
+    width:250px;
+    height:2rem;
+    border: 2px solid #E5E7EB;
+}
+
+input:focus
+{
+    border:2px solid rgba(107, 159, 238, 0.5);
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(107, 159, 238, 0.5);
+}
+
+#confirm-password:user-invalid ,#password:user-invalid
+{
+    border:2px solid  rgba(255, 0, 0, 0.3);
+    outline: none;
+    box-shadow: 0 0 5px 2px  rgba(255, 0, 0, 0.3);
 }
