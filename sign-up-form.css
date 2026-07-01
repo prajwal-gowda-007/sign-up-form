@@ -1,0 +1,88 @@
+@font-face {
+    font-family:"troika" ;
+    src: url("./fonts/troika.woff2") format("woff2") ,
+         url("./fonts/troika.woff") format("woff");
+}
+
+body
+{
+    margin: 0;
+}
+
+.sidebar {
+  background-image: url('./image/damien-dufour-wsn0crQNPPw-unsplash.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  min-width:35vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-line
+{
+    padding: 14px;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-family: "troika", Georgia, "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(60, 91, 97, 0.1);
+    height:3rem;
+}
+
+.logo
+{
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+footer , a
+{
+    color: white;
+    margin-bottom: 8px;
+    margin-top: auto;
+    align-self: center;
+}
+
+.main
+{
+    display: flex;
+    min-height: 100vh;
+    min-width: 65vh;
+}
+
+.form-content
+{
+    padding: 2rem;
+    line-height: 1.5rem;
+    width: 65vw;
+}
+
+button
+{
+    background-color: rgba(18, 114, 18, 0.904);
+    color: white;
+    font-size: medium;
+    padding: 10px 20px;
+    border-radius: 18px;
+}
+
+.form-flex
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.form-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;    
+}
+
+.form-para
+{
+    font-weight: 600;
+}
