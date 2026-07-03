@@ -1,5 +1,7 @@
 # Sign Up Form
 
+⚠️ This is a demo project for learning purposes only. No information entered into the form is collected, stored, or transmitted.
+
 A simple sign-up form built as part of The Odin Project's Intermediate HTML and CSS course. The project focuses on form structure, custom styling, input validation states, and layout techniques using Flexbox and CSS Grid.
 
 ## Features

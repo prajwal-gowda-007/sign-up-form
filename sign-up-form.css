@@ -110,3 +110,14 @@ input:focus
     outline: none;
     box-shadow: 0 0 5px 2px  rgba(255, 0, 0, 0.3);
 }
+
+.demo-notice {
+    background-color: #fff3cd;
+    color: #664d03;
+    border: 1px solid #ffe69c;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    line-height: 1.4;
+}
